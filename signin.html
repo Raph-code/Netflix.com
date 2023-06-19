@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bosstrap.css">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        overflow-x: hidden;
+    }
+    .bg img{
+        width:1900px;
+        height:1200px;
+        position: absolute;
+        border-bottom:50px solid white;
+        margin-top:-2px;
+        overflow-x:hidden;
+    }
+    h5 img{
+        position: relative;
+        height:150px;
+        margin-left:-10px;
+        margin-top:-30px;
+    }
+    .form{
+        background-color:rgba(0, 0, 0, 0.8);
+        position: relative;
+        width:30%;
+        height:600px;
+        margin-left:480px;
+        margin-top:-30px;
+        border-radius:5px;
+    }
+    input[type=text],[type=Email],[type=number]{
+        height:50px;
+        border-radius:2px;
+        background-color:lightblue;
+        width:70%;
+        font-size:10px;
+        margin-left: 50px;
+        margin-top:20px;
+    }
+    .pass input[type=password]{
+        height:50px;
+        border-radius:2px;
+        background-color:lightblue;
+        width:70%;
+        font-size:10px;
+        margin-left: 50px;
+        margin-top:20px;
+    }
+   button{
+        background-color:rgb(204 0 0);
+        width:70%;
+        height:50px;
+        border-radius:4px;
+        margin-left: 50px;
+        margin-top:80px;
+        border: none;
+        color:white;
+        font-size:18px;
+        padding-top:10px;
+    }
+    p{
+        margin-top:30px;
+        margin-right:22px;
+        color: grey;
+    }
+    h6{ 
+        color: grey;
+    }
+    .d-flex{
+        margin-top:20px;
+        color: gray;
+    }
+</style>
+<body>
+    <div class="bg">
+        <img src="images/net-3.jpg" alt="">
+    </div>
+    <h5><img src="images/mat.png" alt=""></h5>
+    <div class="form">
+        <h1 class="text-white pt-5 px-5" style="font-size:35px;">Sign In</h1>
+        <input type="text" class="form-control" placeholder="Email or phone number">
+        <div class="pass">
+            <input type="password" class="form-control" placeholder="Password">
+        </div>
+        <a href="#"><button>Sign in</butto</a>
+            <div class="d-flex">
+                <input type="checkbox" style="margin-top:-6px;margin-right:5px;"><h6>Remember me</h6>
+                <h6 style="margin-left:80px;">Need help?</h6>
+            </div>
+        <p>New to Netflix?<span style="color:white;">Sign up now</span></p>
+        <div style="font-size:13px;color: grey;">This page is protected by Google reCAPTCHA to ensure you're not a bot. <span style="color:blue;">Learn more.</span></div>    
+    </div>
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.js"></script>
+</body>
+</html>
